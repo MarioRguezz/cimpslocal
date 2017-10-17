@@ -77,12 +77,12 @@
       &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;
       &nbsp; &nbsp;&nbsp;&nbsp;
       &nbsp; &nbsp;&nbsp;&nbsp;
-       &nbsp; &nbsp;&nbsp;&nbsp;id &nbsp; &nbsp;&nbsp;&nbsp;| gaffete </div>
+       &nbsp; &nbsp;&nbsp;&nbsp;id &nbsp; &nbsp;&nbsp;&nbsp;| pagado </div>
    <div class="divTableCell">nombre</div>
    <div class="divTableCell">correo</div>
    <div class="divTableCell">registrado</div>
    <div class="divTableCell">group</div>
-   <div class="divTableCell">pagado</div>
+   <div class="divTableCell">gaffete</div>
    </div>
 
              <?php
@@ -99,13 +99,13 @@
                          echo" <form id='registrationFormInfo'  method='post' action='change.php' role='form'>";
                          echo "<div class='divTableCell'>  <input type='submit' class='btn btn-primary' value='Cambiar'>   </div>";
                          echo "<div class='divTableCell'> <input class='tamano' type='text' name ='id' value=".$row['id']." /></div>";
-                         echo "<div class='divTableCell'> <input  class='tamano'  type='text' name ='gaffete' value=".$row['gaffete']." /></div>";
+                         echo "<div class='divTableCell'> <input  class='tamano'  type='text' name ='gaffete' value=".$row['accept']." /></div>";
                           echo "</form>";
                          echo "<div class='divTableCell'>". $row['name']. "</div>";
                          echo "<div class='divTableCell'>". $row['email']. "</div>";
                          echo "<div class='divTableCell'>". $row['registered']. "</div>";
                          echo "<div class='divTableCell'>". $row['tittle']. "</div>";
-                         echo "<div class='divTableCell'>". $row['accept']. "</div>";
+                         echo "<div class='divTableCell'>". $row['gaffete']. "</div>";
 
 
                         echo "</div>";

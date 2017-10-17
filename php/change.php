@@ -13,7 +13,7 @@ echo  $gaffete;
 echo $id;
 echo  $variable;
 $conec = conect();
-$sql = "UPDATE users SET gaffete='" .$variable."' WHERE id='".$id ."'";
+$sql = "UPDATE users SET accept='" .$variable."' WHERE id='".$id ."'";
 
     if(mysqli_query($conec,$sql)){
       header('Location: tabla.php');
