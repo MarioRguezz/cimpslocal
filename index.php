@@ -361,7 +361,9 @@
 								<label>
 																		<input name="additionalpublic" class="service" type="checkbox" value="6">
 																		Additional documentation copy paper								</label>
-								<span class="ui-spinner ui-widget ui-widget-content ui-corner-all"><input style="width:30px;" id="s_6" name="additionalpublictext" class="spinner ui-spinner-input" type="text" value="1" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton"><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n">▲</span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s">▼</span></span></a></span>							</div>
+								<span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+                  <input style="width:30px;" id="s_6" name="additionalpublictext">
+                					</div>
 						</td>
 						<td style="padding-right:3em">$<span class="cost">800</span></td>
 						<td><span class="cost">40</span>€</td>
@@ -370,7 +372,7 @@
 						<td style="padding-right:3em">
 							<div class="checkbox" style="margin-top:0px; margin-bottom:0px">
 								<label>
-																		    <input class="service" type="checkbox" name="generalpublicheck" value="7" checked="" disabled="">
+																		    <input class="service" type="checkbox" name="generalpublicheck" value="7" checked>
 																									General Public								</label>
 															</div>
 						</td>
@@ -432,7 +434,9 @@
 								<label>
 																		<input name="additionalstudent" class="service" type="checkbox" value="6">
 																		Additional documentation copy paper								</label>
-								<span class="ui-spinner ui-widget ui-widget-content ui-corner-all"><input style="width:30px;" id="s_6" name="additionalstudenttext" class="spinner ui-spinner-input" type="text" value="1" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton"><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n">▲</span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s">▼</span></span></a></span>							</div>
+								<span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+                  <input style="width:30px;" id="s_6" name="additionalstudenttext">
+                		</div>
 						</td>
 						<td style="padding-right:3em">$<span class="cost">800</span></td>
 						<td><span class="cost">40</span>€</td>
@@ -441,7 +445,7 @@
 						<td style="padding-right:3em">
 							<div class="checkbox" style="margin-top:0px; margin-bottom:0px">
 								<label>
-																		    <input class="service" name="studentcheck" type="checkbox" value="8" checked="" disabled="">
+																		    <input class="service" name="studentcheck" type="checkbox" value="8" checked>
 																							Students								</label>
 															</div>
 						</td>
@@ -492,7 +496,9 @@
 								<label>
 																		<input name="additionalcompany" class="service" type="checkbox" value="6">
 																		Additional documentation copy paper								</label>
-								<span class="ui-spinner ui-widget ui-widget-content ui-corner-all"><input style="width:30px;" id="s_6" name="additionalcompanytext" class="spinner ui-spinner-input" type="text" value="1" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton"><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n">▲</span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s">▼</span></span></a></span>							</div>
+								<span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+                  <input style="width:30px;" id="s_6" name="additionalcompanytext">
+                </div>
 						</td>
 						<td style="padding-right:3em">$<span class="cost">800</span></td>
 						<td><span class="cost">40</span>€</td>
@@ -501,7 +507,7 @@
 						<td style="padding-right:3em">
 							<div class="checkbox" style="margin-top:0px; margin-bottom:0px">
 								<label>
-																		    <input class="service"  name="companycheck" type="checkbox" value="9" checked="" disabled="">
+																		    <input class="service"  name="companycheck" type="checkbox" value="9" checked>
 																									Companies/Enterprise not sponsors								</label>
 															</div>
 						</td>
@@ -618,7 +624,9 @@
                                 <label>
                                                     <input name="additionalposter" class="service" type="checkbox" value="6">
                                                     Additional documentation copy paper								</label>
-                                <span class="ui-spinner ui-widget ui-widget-content ui-corner-all"><input style="width:30px;" id="s_6" name="additionalpostertext" class="spinner ui-spinner-input" type="text" value="1" aria-valuemin="1" aria-valuenow="1" autocomplete="off" role="spinbutton"><a class="ui-spinner-button ui-spinner-up ui-corner-tr ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-n">▲</span></span></a><a class="ui-spinner-button ui-spinner-down ui-corner-br ui-button ui-widget ui-state-default ui-button-text-only" tabindex="-1" role="button"><span class="ui-button-text"><span class="ui-icon ui-icon-triangle-1-s">▼</span></span></a></span>							</div>
+                                <span class="ui-spinner ui-widget ui-widget-content ui-corner-all">
+                                  <input style="width:30px;" id="s_6" name="additionalpostertext">
+                                				</div>
                             </td>
                             <td style="padding-right:3em">$<span class="cost">800</span></td>
                             <td><span class="cost">40</span>€</td>
@@ -627,7 +635,7 @@
                             <td style="padding-right:3em">
                               <div class="checkbox" style="margin-top:0px; margin-bottom:0px">
                                 <label>
-                                                        <input class="service" name="postercheck" type="checkbox" value="10" checked="" disabled="">
+                                                        <input class="service" name="postercheck" type="checkbox" value="10" checked>
                                 																	Poster								</label>
                                               </div>
                             </td>
